@@ -98,5 +98,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f4a03cae22.js" crossorigin="anonymous"></script>
     <!--End common section to copy on all pages-->
+    <!-- Start page specific scripts here -->
+     <!-- Load reCAPTCHA script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Validation function -->
+    <script>
+      function validateRecaptcha() {
+        var response = grecaptcha.getResponse();
+        if (response.length === 0) {
+          alert("You're not allowed to go further, ROBOT! Try again!");
+          return false;
+        }
+        return true;
+      }
+    </script>
+    <!-- Tooltip Bootstrap script for submit button -->
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    <!-- End page specific scripts here -->
 </body>
 </html>
