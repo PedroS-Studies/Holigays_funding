@@ -59,8 +59,61 @@
     <!--End Bootstrap sticky Navbar-->
     <main>
         <section class="info-section Infra-navbar-section">
-            <h1> Page not found</h1>
-            <p>Sorry! This page is not loading in this moment. Use the navigation links for another page.</p>
+          <h1> Page not found</h1>
+          <p>Sorry! This page is not loading in this moment. Use the navigation links for another page.</p>
+          <!-- Start form features for contact form -->
+          <div class="mt-5">              
+            <div class="container-fluid">
+              <form action="/submit-form" method="post">
+                <fieldset>
+                  <legend><h2>Report issue with page:</h2></legend>                    
+                  <div class="row">
+                    <div class="col-12 col-lg-6 px-2">
+                      <label for="name">Name and Surname</label>
+                      <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name - no need of middle name" required>
+                    </div>
+                    <div class="col-12 col-lg-6 px-2">
+                      <label for="email">Your e-mail</label>
+                      <input type="email" id="email" name="email" class="form-control" placeholder="your.mail@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12 col-lg-6 px-2">
+                      <label for="subject">Which page produced this error</label>
+                      <select id="subject" name="subject" class="form-select" required>
+                        <option value="" disabled selected>-- Please select the page --</option>
+                        <option value="home">Homepage</option>
+                        <option value="investors">Investors</option>
+                        <option value="partners">Partnering</option>
+                        <option value="crowdfunding">Crowdfunding</option>
+                        <option value="hoteliers">Hoteliers</option>
+                        <option value="about">About</option>
+                        <option value="contact">Contact us</option>
+                        <option value="business">Business Enquiry</option>
+                        <option value="feedback">General Feedback</option>
+                        <option value="other">Other reason</option>
+                      </select>
+                    </div>
+                    <div class="col-12 col-lg-6 px-2">
+                      <label for="message">Your Message (Max 500 characters)</label>
+                      <textarea id="message" name="message" class="form-control" rows="3" maxlength="500" placeholder="Write your message here..."></textarea>
+                    </div>
+                  </div>                    
+                  <div class="row mt-3">
+                    <div class="col-12 col-lg-6">
+                      <!-- reCAPTCHA widget -->
+                      <div class="g-recaptcha" data-sitekey="6LcjGFMrAAAAADGdBzvDV7AJE4xFEJyyk1f_mC_s"></div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex gap-2 d-flex justify-content-end px-2">
+                      <button type="submit" class="btn btn-primary" data-toggle="tooltip" title="EMPTY THREAT! I'll be harvesting your IP!" onclick="return validateRecaptcha()">Submit</button>
+                      <button type="reset" class="btn btn-secondary">Reset</button>
+                    </div>
+                  </div>                    
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <!-- end form features for contact form -->
         </section>
     </main>
     <!--Start common section to copy on all pages-->
