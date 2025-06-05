@@ -179,16 +179,7 @@ The Hero image has been taken during the Brighton Gay Pride of 2022 and feature 
 |----------------------|:--------------------------------------:|
 |The Homepage has a traditional F-shape hierarchy of importance, with the most important information on the top-left.<br>The first two text blocks address both main User groups, the investors and plausible crowdfunders, with a CTA for each, leading to relevant information pages. The choice of buttons instead of text, is a deliberate to anticipate for the user that this is part of an action which will culminate on the next page.<br>Between the blocks features prominently a provisory logo for the project, based on a rainbow swatch. The colour swatch of the logo is later repeated as filters on different assets of the site.<br>Below on the page, there is seemingly a profuse amount of information for the secondary users of the website, the hoteliers. The main link for the page, also present in the navbar, leads to the hoteliers’ information page. A mosaic of images, incorporating links on an overlay, lead to bookmarks of the different sections of the hoteliers’ page, giving the appearance of an abundance of wiki. <br>The images used for the mosaic are mostly photographs with coloured overlays, except for the potentially most controversial issue regarding hotels based on sexual identity, Prostitution. The theme is very likely the elephant in the room every time the niche is discussed and the section of the mosaic calls attention to it, not only for being a designed graphic, but also for being an animated gif. Contrary to the other assets on the page, the animated gif is not duplicated on the Hoteliers’ page but is substituted by a photographic picture. | ![rm_f_shape_homepage](assets/images/rm_f_shape_homepage.png) |
 
-
-
-
-
-
-
-
-
-
-Apart the hero image, the page also includes inspiring assets for the sake of the layout to create negative space making the reading easier.
+Apart from the hero image, the page also includes inspiring assets for the sake of the layout to create negative space making the reading easier.
 
 #### Investors and partners
 
