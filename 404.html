@@ -59,8 +59,13 @@
     <!--End Bootstrap sticky Navbar-->
     <main>
         <section class="info-section Infra-navbar-section">
-          <h1> Page not found</h1>
-          <p>Sorry! This page is not loading in this moment. Use the navigation links for another page.</p>
+          <h1>Page not found</h1>
+          <p>Sorry! This page is not loading in this moment. Use the navigation links or the button below for another page.</p>
+          <section class="container-fluid">
+            <div class="d-flex justify-content-end px-2">
+                <button type="button" class="btn btn-success" onclick="goBack()">Previous page</button>
+            </div>
+          </section>
           <!-- Start form features for contact form -->
           <div class="mt-5">              
             <div class="container-fluid">
@@ -171,6 +176,17 @@
         $('[data-toggle="tooltip"]').tooltip();
       });
     </script>
+    <!-- Start "Back" button script -->
+    <script>
+      function goBack() {
+          if (document.referrer) {
+              window.location.href = document.referrer;
+          } else {
+              window.location.href = '/'; // Redirects to homepage if no referrer is found
+          }
+      }
+    </script>
+    <!-- End "Back" button script -->
     <!-- End page specific scripts here -->
 </body>
 </html>
