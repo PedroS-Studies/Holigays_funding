@@ -108,7 +108,11 @@
                       <div class="g-recaptcha" data-sitekey="6LcjGFMrAAAAADGdBzvDV7AJE4xFEJyyk1f_mC_s" aria-label="Security verification to confirm you are not a bot"></div>
                     </div>
                     <div class="col-12 col-lg-6 d-flex gap-2 d-flex justify-content-end px-2 col align-self-center">
-                      <button type="submit" class="btn btn-primary" accesskey="s" aria-label="Submit your message, sent by e-mail, not entered in any database (Alt + S)" data-toggle="tooltip" title="EMPTY THREAT! I might be harvesting your IP!" onclick="return validateRecaptcha()">Submit</button>
+                      <button type="submit" class="btn btn-primary" accesskey="s" 
+                        aria-label="Submit your message, sent by e-mail, not entered in any database (Alt + S)"
+                        data-toggle="tooltip" 
+                        title="EMPTY THREAT! I might be harvesting your IP!" 
+                        onclick="validateAndSubmit()">Submit</button>
                       <button type="reset" class="btn btn-secondary" accesskey="x" aria-label="Reset all fields in the form (Alt + X)">Reset</button>
                     </div>
                   </div>                    
@@ -156,35 +160,52 @@
     <!--End common section to copy on all pages-->
     <!-- Start page specific scripts here -->
      <!-- Load reCAPTCHA script -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!-- Validation function -->
+    <!-- Back-button, Tooltip and reCAPTCHA Validation function -->
     <script>
-      function validateRecaptcha() {
-        var response = grecaptcha.getResponse();
-        if (response.length === 0) {
-          alert("You're not allowed to go further, ROBOT! Try again!");
-          return false;
+    // ✅ Initialize Bootstrap Tooltip (Ensure tooltips work)
+    document.addEventListener("DOMContentLoaded", function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'));
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+            new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+
+    // ✅ Back Button Function
+    function goBack() {
+        if (document.referrer) {
+            window.location.href = document.referrer;
+        } else {
+            window.location.href = '/'; // Redirects to homepage if no referrer is found
         }
-        return true;
-      }
-    </script>
-    <!-- Tooltip Bootstrap script for submit button -->
-    <script>
-      $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script>
-    <!-- Start "Back" button script -->
-    <script>
-      function goBack() {
-          if (document.referrer) {
-              window.location.href = document.referrer;
-          } else {
-              window.location.href = '/'; // Redirects to homepage if no referrer is found
-          }
-      }
-    </script>
-    <!-- End "Back" button script -->
+    }
+
+    // ✅ Validate reCAPTCHA & Submit Form via EmailJS
+    function validateAndSubmit() {
+        var response = grecaptcha.getResponse();
+        
+        if (response.length === 0) {
+            alert("⚠️ Please complete the CAPTCHA before submitting.");
+            return false; // Prevent submission if CAPTCHA isn't completed
+        }
+
+        // ✅ EmailJS Submission
+        emailjs.send("service_13f07oj", "template_phhxknj", {
+	    from_name: document.getElementById("name").value,
+	    email: document.getElementById("email").value,
+	    subject: document.getElementById("subject").value, // ✅ Added subject input
+	    message: document.getElementById("message").value
+	}).then(function(response) {
+            console.log("✔️ Email sent successfully!", response);
+            window.location.href = "/"; // Redirect after successful submission
+        }).catch(function(error) {
+            console.log("❌ Email failed to send", error);
+        });
+
+        return false; // Prevent default form submission
+    }
+</script>
     <!-- End page specific scripts here -->
 </body>
 </html>
