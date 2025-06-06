@@ -1,4 +1,7 @@
 # Holigays OTA - funding
+
+![rm_index_landing](assets/images/rm_index_landing.PNG)
+
 Deployed at https://pedros-studies.github.io/Holigays_funding/
 
 Repository at https://github.com/PedroS-Studies/Holigays_funding
@@ -38,7 +41,9 @@ The sub-niches of "LGBTQIA+" category are sufficiently limited, labelled and con
 Currently, the mainstream OTA's, such as booking.com or hotels.com provide at the best the category of "Gay-friendly".
 
 Ideally the project developped in this sandbox will eventually become part of this wider Niche-related, Hotel-as-destination OTA, or should it have success as independent interface, it could still profit from the engine of the wider project as SaaS.
+
 ### User Stories
+
 * LGBTQIA+ Traveller User needs a way to get informed of the existence of the project and register so that they can follow.
 * LGBTQIA+ Traveller User needs a way to show support for the initiative so that they can donate.
 * Investor Users need a way to book an appointment so that they can meet and get pitched.
@@ -173,6 +178,8 @@ The styling of the footer duplicates the styling of the NavBar and also contains
 
 #### Home
 
+![rm_index_mosaic](assets/images/rm_index_mosaic.PNG)
+
 The Hero image has been taken during the Brighton Gay Pride of 2022 and feature three women of very different aspects to link with the main text of the overlaid text. The picture automatically crops itself in decreasing viewport, and the shape of the overlaying textbox changes according to the size and re-orientation of the hero-picture from landscape to portrait. 
 
 |Page layout priorities|.|
@@ -183,6 +190,8 @@ Apart from the hero image, the page also includes inspiring assets for the sake 
 
 #### Investors and partners
 
+![rm_investors_calcom](assets/images/rm_investors_calcom.PNG)
+
 The page targets mainly investors, who have a dedicated section with a sales pitch and a list of main elements of the USP, but also opens up to corporate cooperation for companies wishing to partner against a participation in the project
 
 The focal point of the page is the interactive cal.com widget located between the investors and partnering sections. This widget allows to book a meeting directly from the Project Manager's calendar.
@@ -190,6 +199,8 @@ The focal point of the page is the interactive cal.com widget located between th
 The page is intentionally frugal and essential to be taken in in a minimal lapse of time and inviting to a spontaneous reaction to the CTA. 
 
 #### Crowdfunding
+
+![rm_crowdfunding_coffee](assets/images/rm_crowdfunding_coffee.PNG)
 
 Contrary to the aspiration of the investors page to act immediately, the page targeting the non-corporate users aims to provoke pondered choices of commitment at different levels of involvement and sentiment from the possible future users of the product. The importance is more on the market research aspect of gauging the level of interest of the users than collecting donations.
 
@@ -205,17 +216,23 @@ Originally, a direct feedback form was considered, but the idea was later discar
 
 #### Hoteliers
 
+![rm_hoteliers](assets/images/rm_hoteliers.PNG)
+
 The page contains 6 articles for the consideration of hoteliers, who are possibly already managing a LGBTQIA+ niche hotel or who might be considering rebranding in the niche. Each article is accompanied by an asset with a filter repeating the colour swatch of the mock-up logo.
 
 The purpose of the page is to raise interest in the hoteliers to possibly return on the website to check the progress of the project. Consequently, the lack of any specific CTA's or interactive elements for this user group is intentional in this phase.
 
 #### About
 
+![rm_about](assets/images/rm_about.PNG)
+
 The page gives an overview of the project, and it also features a personal summary of the Project Manager, as well as a link to his LinkedIn profile.
 
 The project overview is accompanied by a strong impact picture, letting the user understand that the project is related to a niche of adult sexual identity related hospitality. This highlights the fact that the acceptance of any commitment has moral repercussions beyond a simple DEI statement.
 
 #### 404 page
+
+![rm_404](assets/images/rm_404.PNG)
 
 The "Contact us" broken link in the footer located on every page deliberately leads here. It is expected that should a troll or hater land on this page, without further thinking, they will associate the form as one used to report bugs to a webmaster, and they will move on. 
 
