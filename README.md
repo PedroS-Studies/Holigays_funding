@@ -263,6 +263,36 @@ Frameworks and libraris:
 - Google Fonts
 - FontAwesome
 
+## Tools
+
+### IDE
+
+Microsoft's VS Code was the main IDE during the coding of the website.
+
+### Versions Control
+
+GitHub has been the only interface of versions control, throughout the project.
+
+### Project Management
+
+Initially, the project was planned with MS Project, which relies on Gantt charts for tracking of the tasks. However, considering the didactic requirements of the milestone project, by the launch of the coding, GitHub projects was used, since it allowed a major connection with the versions control. However, Kanban-based project management tools, notwithstanding their ease of use and adaptability to teamwork, are more time-consuming and less performant in tracking the tasks.
+
+### Assets Editors
+
+Adobe Photoshop 2025
+
+Adobe Lightroom Classic 2025
+
+TechSini Multi Device Website Mockup Generator
+
+### Wireframes
+
+Balsamiq
+
+### Assets Management
+
+Considering the elevated number of assets and their backups, Adobe Bridge was used to file, tag and keyword editing. Multiple changes to assets actually stem from the update of the tags.
+
 ## Testing
 
 See TESTING.MD
