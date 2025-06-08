@@ -22,7 +22,7 @@ Some text
 
 |Page|Chromium-based|Gecko-based|Safari|
 |----|--------------|-----------|------|
-|**INDEX:**<br><br>In full deployment there are no major difference <br>between the rendering of the Hompage in different browsers.<br>The differences of proportions in these screenshots are due <br>to the level of zoon needed to get a satisfying screenshot.|![rm_index_on_chromium](assets/images/rm_index_on_chromium.png)|![rm_index_on_gecko](assets/images/rm_index_on_gecko.png)|Screenshot tba|
+|**INDEX:**<br><br>In full deployment there are no major difference <br>between the rendering of the Hompage in different browsers.<br>The differences of proportions in these screenshots are due <br>to the level of zoon needed to get a satisfying screenshot.|![rm_index_on_chromium](assets/images/rm_index_on_chromium.png)|![rm_index_on_gecko](assets/images/rm_index_on_gecko.png)|![rm_index_on_safari](assets/images/rm_index_on_safari.png)|
 
 ![def_Browser_1](assets/images/def_Browser_1.PNG)
 ![def_Browser_2](assets/images/def_Browser_2.PNG)
