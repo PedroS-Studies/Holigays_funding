@@ -28,15 +28,11 @@ The rendering of the pages has been tested on the three main browser platforms:
 |Page|Chromium-based|Gecko-based|WebKit-based|
 |----|--------------|-----------|------------|
 |**INDEX:**<br><br>In full deployment there are no major difference <br>between the rendering of the Hompage in different browsers.<br>The differences of proportions in these screenshots are due <br>to the level of zoon needed to get a satisfying screenshot. <br>The only notable difference in the rendering is the superior quality of the graphics in WebKit based browsers.|![rm_index_on_chromium](assets/images/rm_index_on_chromium.png)|![rm_index_on_gecko](assets/images/rm_index_on_gecko.png)|![rm_index_on_safari](assets/images/rm_index_on_safari.png)|
-|**INVESTORS**<BR><BR>The page doesn't show major changes from one rendering platform to the other.||||
-|**CROWDFUNDING**<BR><BR>The page doesn't show major changes from one rendering platform to the other.||||
-|**HOTELIERS**<BR><BR>The page doesn't show major changes from one rendering platform to the other.||||
-|**ABOUT**<BR><BR>The page doesn't show major changes from one rendering platform to the other.||||
-|**404**<BR><BR>The page doesn't show major changes from one rendering platform to the other.||||
-
-![def_Browser_1](assets/images/def_Browser_1.PNG)
-![def_Browser_2](assets/images/def_Browser_2.PNG)
-![def_Browser_3](assets/images/def_Browser_3.PNG)
+|**INVESTORS**<BR><BR>The page doesn't show major changes from one rendering platform to the other.|![rm_investors_on_chromium](assets/images/rm_investors_on_chromium.png)|![rm_investors_on_gecko](assets/images/rm_investors_on_gecko.png)|![rm_investors_on_safari](assets/images/rm_investors_on_safari.png)|
+|**CROWDFUNDING**<BR><BR>The page doesn't show major changes from one rendering platform to the other.|![rm_crowdfunding_on_chromium](assets/images/rm_crowdfunding_on_chromium.png)|![rm_crowdfunding_on_gecko](assets/images/rm_crowdfunding_on_gecko.png)|![rm_crowdfunding_on_safari](assets/images/rm_crowdfunding_on_safari.png)|
+|**HOTELIERS**<BR><BR>The page doesn't show major changes from one rendering platform to the other.|![rm_hoteliers_on_chromium](assets/images/rm_hoteliers_on_chromium.PNG)|![rm_hoteliers_on_gecko](assets/images/rm_hoteliers_on_gecko.PNG)|![rm_hoteliers_on_safari](assets/images/rm_hoteliers_on_safari.png)|
+|**ABOUT**<BR><BR>The page doesn't show major changes from one rendering platform to the other.|![rm_about_on_chromium](assets/images/rm_about_on_chromium.png)|![rm_about_on_gecko](assets/images/rm_about_on_gecko.png)|![rm_about_on_safari](assets/images/rm_about_on_safari.png)|
+|**404**<BR><BR>The page doesn't show major changes from one rendering platform to the other.|![rm_404_on_chromium](assets/images/rm_404_on_chromium.PNG)|![rm_404_on_gecko](assets/images/rm_404_on_gecko.png)|![rm_404_on_safari](assets/images/rm_404_on_safari.png)|
 
 ### Handheld devices response
 
