@@ -48,6 +48,7 @@ Ideally the project developped in this sandbox will eventually become part of th
 * LGBTQIA+ Traveller User needs a way to show support for the initiative so that they can donate.
 * Investor Users need a way to book an appointment so that they can meet and get pitched.
 * Prospective hotelier Users need a way to receive information about hotels of this niche so that they can prepare for what is coming their way.
+* Abusive users, trolls and haters should not have an easy access to any interactive feature enabling to saturate the server or the services.
 
 ### Design choices
 
@@ -56,6 +57,7 @@ Sans-Serif choices:
 - Syne
 - Syne-mono
 - IBM Plex Sans
+
 #### Icons
 Icons linked from FontAwesome library
 
@@ -64,7 +66,7 @@ Logotype use Arlesiana logo (black and white) contrast with Holigay swatch. The 
 Hero-image of own copyright from Brighton Pride.
 Other assets from fee-of-charge stock
 
-#### Branding and Swatch
+#### Branding and Swatches
 Background: Off-white, Colour swatch from basic colours as used in the official LGBTQ banner – not extended banners.
 Font-colour picked from hero picture. CTA colour scheme to be taken from swatch.
 Not yet Holigays-specific final branding (leave open for investors or partners) or logos. Use generic LGBTQAI+ related branding to not commit too early. Use very light neutral colour filter on assets to simulate uniform branding possibly “Tekhelet” (#075299) or “Egyptian Gold” (#E7C38A).
