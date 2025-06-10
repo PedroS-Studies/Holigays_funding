@@ -74,11 +74,56 @@ Provisory Branding including graphics and mockup logo are based on the LGBTQIA+ 
 ![Full swatch](assets/images/full_swatch.PNG)
 
 ### Wireframes
-The responsive design of the index.html from smallest media to largest should flow according to this wireframe:
-![Wireframe responsive design smallest to largest media](/assets/images/holigaysf_funding_home_responsive_v3.png)
-[Download further wireframes as PDF](holigays_funding_wireframes_v1.pdf)
 
-### Pages
+#### General responsiveness
+
+The responsive design is quite consistent over the project. It involves a mix of Bootstrap grid for the more complex features, often containing up to 4 breakpoints, and standard flexbox, mostly when only two breakpoints are involved. The page containing most of the features is the index.html whose responsiveness from smallest media to largest should flow according to this wireframe:
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br>General responsiveness from smallest to widest viewport. Footer not yet defined. Will probably be about the hosting platform Arlesiana.<br>- Will use flexbox and some Bootstrap<br>- Bootstrap grid for the articles<br>- Bootstrap navbar - overriding most of it with own css, though.|![rm_wf_gal_responsiveness](assets/images/rm_wf_gal_responsiveness.png)|
+
+The other pages would follow the general pattern of the Hompepage layout-wise, limiting the rendering in two columns, which would stack one above the other in smaller wiewports. 
+
+#### Homepage
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> General layout of index/home page. The content cards <in the Bootstrap grid will link to particular bookmarked sections in the <hoteliers page and - apart distracting the not-targeted audience - will possibly also cater to some of the principal questions of the investors.|![rm_wf_index](assets/images/rm_wf_index.png)|
+
+#### Investors and partners page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> Main expectation is that possible investors take an appointment with the cal.com embed. There will be possibly a short elevator pitch in the video to help the investors to get an idea of my voice and face. <br> The partnership section below is the part to which the "partner with us" link of the navbar will be pointing to.|![rm_wf_investors](assets/images/rm_wf_investors.png)|
+
+#### End-user page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> The purpose of the page is to collect information about the engagement and the level of engagement of the expected end-users. To that end, there will be three CTA's:<br>- A link to a crowdfunding page<br>- A widget of "buy me a coffee"<br>- A link to form/mailchimp for inscription to a newsletter.<br>The assets to target more the consumers rather than stakeholders.|![rm_wf_crowdfunding](assets/images/rm_wf_crowdfunding.png)|
+
+#### Hotel-owners page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> The purpose of the page is to make the existing or prospective hoteliers knowledgeable about the  existence of the project. The hoteliers aren't yet targeted since the questions of their interests depend of the feedback by investors and responsiveness of possible end-users. <br> However, some topics within should also answer doubts and questions of the stakeholders.|![rm_wf_hoteliers](assets/images/rm_wf_hoteliers.png)|
+
+#### About the project page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> A short paragraph of informtion about the timeline and dependencies of the project as well as link to future showcase on LinkedIn. Short summary of the project director,  and some links to connect. <br><br> *ABOUT THE IMPLEMENTATION:*<br>Originally the project contemplated adding a short video presentation of the project and of the project manager, to familiarise the possible investor or partner about the voice and aspect of the interlocutor. However, since it would not be possible to embed a video player and including a Youtube or Vimeo video was considered counterproductive, a brief description of the USP's was considered more adequate. <br> This is the most important variation of the final implementation regarding the original project|![rm_wf_about](assets/images/rm_wf_about.png)|
+
+#### 404-page
+
+The 404 page was originally designed to just contain the short message about the issue, with the general NavBar allowing a way out to any other page. 
+
+However, with time, it was considered reasonable to allow the user to report the issue, with most basic user form, projected to be a unique stack of 4 fields of data entry, all of the same size, stacked one on top of the other. Later the idea evolved to include general contact features to allow a hater-safe way of contacting the project management. 
+
+Generally speaking, the final coding corresponds mostly to the projected wireframes. Most changes correspond to giving the pages breathing space for an easier reading, including decorative assets, with no other purpose than providing negative space.
+
+### Pages - to move elsewhere
 - Index.html
 - Investors and partnerships landing page
 - Prospective customer landing page with external links to 'Crowdfunding' and 'buy me a coffee' and link to
