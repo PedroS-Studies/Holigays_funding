@@ -33,6 +33,12 @@ The footer on every page contain a deliberate broken link. The purpose of the ac
 
 ![def_accessibility](assets/images/def_accessibility.PNG)
 
+The intermediate HTML testing produced a warning of a possible abusive aria-label in the footer.
+
+![rm_html_warning_misuse_aria-labels](assets/images/rm_html_warning_misuse_aria-labels.png)
+
+The aria-label has been momentarily deleted, but flagged for reinstatement in the future with further testing with WAVE to confirm.
+
 ## Viewport testing
 
 The pages have been tested on desktop computers and handheld devices for the viewport responsiveness. Laptops have not been taken in consideration due to the wide range of variables involved which may give unreliable results depending of the device's features, which may render the same result as a desktop computer or a horizontally held tablet. However, the tablet viewport have been tested in both landscape and portrait position
