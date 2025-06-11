@@ -346,7 +346,7 @@ Considering the elevated number of assets and their backups, Adobe Bridge was us
 
 ## Testing
 
-See TESTING.MD
+See [TESTING.md](TESTING.md)
 
 ## Deployment
 Deployed at https://pedros-studies.github.io/Holigays_funding/
