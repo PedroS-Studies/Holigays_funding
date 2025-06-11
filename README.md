@@ -53,10 +53,15 @@ Ideally the project developped in this sandbox will eventually become part of th
 ### Design choices
 
 #### Fonts
-Sans-Serif choices:
+The basic choice for bespoke as well as for the browser default fonts are Sans-Serif fonts:
 - Syne
 - Syne-mono
 - IBM Plex Sans
+
+|Syne|Syne Mono|IBM Plex Sans|
+|:----|:----------:|---------:|
+|The stylistically defining font used for the website is Syne. Its whimsical and elegant, though simple styling asserts a corporate message conform with the common Pride Slogan "We are Queer and we are here!". Mostly this font appears as cobalt blue #1E3A5F in headers 1-6, in a smooth contrast with the off-white background.|Some interactive elements use a more aggressive version of Syne, Syne Mono, to give a sense of action. This is mostly used in hyperlinks, among others in the NavBar.|The main content is rendered in a tame, neutral and corporately acceptable sans-serif font of IBM Plex sans, for a smooth reading.|
+|![rm_fonts_syne_std](assets/images/rm_fonts_syne_std.png)|![rm_fonts_syne_mono](assets/images/rm_fonts_syne_mono.png)|![rm_fonts_syne_std](assets/images/rm_fonts_syne_std.png)|
 
 #### Icons
 Icons linked from FontAwesome library
