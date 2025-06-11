@@ -1,5 +1,4 @@
-# Holigays OTA - funding
-
+![rm_readme_title_banner](assets/images/rm_readme_title_banner.png)
 ![rm_index_landing](assets/images/rm_index_landing.PNG)
 
 Deployed at https://pedros-studies.github.io/Holigays_funding/
