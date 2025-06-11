@@ -8,7 +8,17 @@
 
 ## CSS testing
 
-![def_w3_css_validation](assets/images/def_w3_css_validation.PNG)
+### Font optical resizing
+
+Though W3C css testing doesn't recognise the attribute, the Mozilla foundation recognises it as acceptable, as well as all its values and parameters:
+
+![rm_mozilla_ref_font-optical-sizing](assets/images/rm_mozilla_ref_font-optical-sizing.png)
+
+### Font variation settings
+
+Though W3C css testing doesn't recognise the attribute, the Mozilla foundation recognises it as acceptable, as well as all its values and parameters:
+
+![rm_mozilla_ref_font-variation-settings](assets/images/rm_mozilla_ref_font-variation-settings.png)
 
 ## Broken links
 
