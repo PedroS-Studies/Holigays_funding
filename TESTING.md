@@ -2,11 +2,16 @@
 
 ## Code testing
 
-![def_html_testing1](assets/images/def_html_testing1.PNG)
 ![def_html_testing2](assets/images/def_html_testing2.PNG)
 ![def_html_testing3](assets/images/def_html_testing3.PNG)
 
 ## CSS testing
+
+The W3C stubbornly returns two errors regarding font values and properties:
+
+![rm_css_w3c_20250611](assets/images/rm_css_w3c_20250611.png)
+
+However, these elements don't hinder the proper rendering of the pages and are admissible according to the Mozilla Foundation.
 
 ### Font optical resizing
 
@@ -22,7 +27,7 @@ Though W3C css testing doesn't recognise the attribute, the Mozilla foundation r
 
 ## Broken links
 
-The footer on everypage contain a deliberate broken link. The purpose of the action is to mislead the possible trolls and haters to believing, that the form on the 404 page is only for the purpose of reporting an issue with a page. However, the form contains options for "contact request" and "General feedback", for the user who might be willing to investigate the feature further. An aria-label informs the users of the website about the purpose of the link and the use of the form.
+The footer on every page contain a deliberate broken link. The purpose of the action is to mislead the possible trolls and haters to believing, that the form on the 404 page is only for the purpose of reporting an issue with a page. However, the form contains options for "contact request" and "General feedback", for the user who might be willing to investigate the feature further. An aria-label informs the users of the website about the purpose of the link and the use of the form.
 
 ## Accessibility testing
 
@@ -61,5 +66,16 @@ The site has been tested on standard viewports of handheld devices. For smartpho
 |**ABOUT:**<br><br>|![rm_about_on_iphone_se1](assets/images/rm_about_on_iphone_se1.png)<br>![rm_about_on_iphone_se2](assets/images/rm_about_on_iphone_se2.png)|![rm_int_ipad_hor_about](assets/images/rm_int_ipad_hor_about.jpg)|![rm_int_ipad_ver_about](assets/images/rm_int_ipad_ver_about.jpg)|
 |**404:**<br><br>|![rm_404_on iphone_se](assets/images/rm_404_on_iphone_se.png)|![rm_int_ipad_hor_404](assets/images/rm_int_ipad_hor_404.jpg)|![rm_int_ipad_ver_404](assets/images/rm_int_ipad_ver_404.jpg)|
 
+## Debugging
 
+### Known bugs
 
+The JavaScript validation code for the "submit button" on 404 page doesn't send the form data to EmailJS as expected. This might however be due to the lack of backend verifcation of the reCAPTCHA code, which would need a backend. Since the requirements for the current project don't require a functioning POST method for the fieldset elements, it might be love's labour lost trying to fix this issue without having all the resources and remedies at hand.
+
+## Ongoing testing
+
+This version is not final or otherwise suitable for end-user testing, to gauge user stories in real life. Some features won't be reliably tested until there can be a backend for the implementation.
+
+Further performance refinements are needed before a release in alpha, including rethinking of the most voluminous assets. However, this would be premature before all the final landing pages of the external links have been set up. 
+
+Accessibility will also be tested with more depth with Lynx as well as with WAVE by AIM.
