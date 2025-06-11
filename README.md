@@ -49,6 +49,19 @@ Ideally the project developped in this sandbox will eventually become part of th
 * Prospective hotelier Users need a way to receive information about hotels of this niche so that they can prepare for what is coming their way.
 * Abusive users, trolls and haters should not have an easy access to any interactive feature enabling to saturate the server or the services.
 
+### Pages
+
+In light of the user stories, it seems that the minimum viable version of the website should have the following pages, of which at least three potential landing pages, once the project includes a SEO phase.
+
+- Index.html
+- Investors and partnerships landing page
+- Prospective customer landing page with external links to 'Crowdfunding' and 'buy me a coffee' and link to
+- About page
+- Information for hoteliers
+- 404 page
+
+This pages roster also includes secondary user-specific features as well as protection features for unwanted users.
+
 ### Design choices
 
 #### Fonts
@@ -127,13 +140,6 @@ However, with time, it was considered reasonable to allow the user to report the
 
 Generally speaking, the final coding corresponds mostly to the projected wireframes. Most changes correspond to giving the pages breathing space for an easier reading, including decorative assets, with no other purpose than providing negative space.
 
-### Pages - to move elsewhere
-- Index.html
-- Investors and partnerships landing page
-- Prospective customer landing page with external links to 'Crowdfunding' and 'buy me a coffee' and link to
-- About page
-- Information for hoteliers
-- 404 page
 <!-- Paste FEATURES section from here -->
 ## Features
 
