@@ -5,12 +5,38 @@ Deployed at https://pedros-studies.github.io/Holigays_funding/
 
 Repository at https://github.com/PedroS-Studies/Holigays_funding
 
-Sandbox project for hotel as destination OTA 
+# Funding Holigays Central - Resorts as a destination
+
+The concept for this project was born of a wider business idea regarding an OTA (Online Travel Agency - e.g. booking.com, hotels.com) for niche hotels, with an infinite roster of niches to which hoteliers with strange ideas could aggregate their properties and have their voice heard. 
+
+Very clearly, this was a concept of "Hotel as a destination" and would part from the traditional booking concept of 
+1/ Decide your location<br>
+2/ Select your dates<br>
+3/ Choose your hotel<br>
+4/ and so on...
+
+To propose instead:<br>
+1/ What kind of hotel would you like to spend your holidays in?<br>
+2/ We have this choice of destinations with that kind of hotel.<br>
+3/ Now, "Check the availability on your dates" or "refine your search with further keywords - this is your choice..."
+
+Sales-wise, this kind of approach would operate on the long tail of marketing.
+
+However, considering the expected expense and the limited amount funding - not to mention the complications due to the AI management of the Database of Niche categories, the Project Manager chose to create a parallel sandbox project with a more manageable roster of niches - LGBTQIA+ hospitality.
+
+The perks of this niche for the implementation of the sandbox are several:
+- Well-defined and easily identifiable customerbase, with precise labels and needs
+- Currently limited number of destinations, since the community remains widely ghetto-oriented.
+- An inventive entrepreneurs-base with constant innovation of concepts and UPS'.
+- Very limited requirement of initial funding. The initial implementation might even be feasible by a sole developer.
+
+The first of this series of modules is aiming to raise funds for the project and gauge the interest in the wider audience.
+
+This was the origin story of Holigays Central!
 
 # Table of Content
 
 ## User Experience and user stories
-[Download full UX including user stories](user_experience_user_stories.pdf)
 
 ### Strategy
 This project is developped as a Sandbox for a general OTA (Online Travel Agency) project for Hotel-as-destination with unlimited number of niches.
@@ -41,13 +67,61 @@ Currently, the mainstream OTA's, such as booking.com or hotels.com provide at th
 
 Ideally the project developped in this sandbox will eventually become part of this wider Niche-related, Hotel-as-destination OTA, or should it have success as independent interface, it could still profit from the engine of the wider project as SaaS.
 
+### Goal
+
+Who are the targeted users?	
+- LGBTQIA+ community holidaymakers, 
+- Travel industry investors
+- Hoteliers evaluating the options for hotels in this Niche
+
+What problem are they facing?	
+- Traditional OTA’s don’t provide options for this niche’s customers
+- There is seldom enough local offer to have a profitable revenue marketplace for OTA’s
+
+What is the main goal for implementing the website?	
+- Quantify the interest among plausible customers for this niche.
+- Convince investors and partners that this is a niche with its subsegments, with a future.
+
+The reality of the LGBTQIA+ travel market is the following:
+- Most OTA’s provide “gay-friendly” as option for hotel selection, but not “only gay”, “gay owned”, “Queers welcome” or “Rainbow family”.
+- Existing OTA’s are in reality glorified blogs, with at best aggregate OTA and links – updated manually.
+- Few LGBTQIA+ destinations have enough hotels of this niche to justify a profitable revenue-based OTA activity.
+
+The purpose of the Holigays project is launching a framework for hotels to individually aggregate, even if the market isn’t ready yet.
+
 ### User Stories
+
+#### User classification
 
 * LGBTQIA+ Traveller User needs a way to get informed of the existence of the project and register so that they can follow.
 * LGBTQIA+ Traveller User needs a way to show support for the initiative so that they can donate.
 * Investor Users need a way to book an appointment so that they can meet and get pitched.
 * Prospective hotelier Users need a way to receive information about hotels of this niche so that they can prepare for what is coming their way.
 * Abusive users, trolls and haters should not have an easy access to any interactive feature enabling to saturate the server or the services.
+
+The required features to answer to the user's needs:
+- Core information about the OTA project
+- Book an appointment to talk about investment or partnership
+- Registration to receive updates
+- Links to crowdfunding
+- Link to show support – “buy me a coffee”
+- Information about LGBTQIA+ hotels for prospective hoteliers
+
+#### Priority of tasks
+
+**Must-have features:**
+- Core information about the OTA project
+- Book an appointment to talk about investment or partnership
+- Registration to receive updates
+
+**Should-have features:**
+- Link to reward-based crowdfunding
+- Link to show support – “buy me a coffee”
+- Company features - About
+
+**Could-have features:**
+- Information about LGBTQIA+ hotels for prospective hoteliers
+- Technologies involved
 
 ### Pages
 
@@ -62,9 +136,107 @@ In light of the user stories, it seems that the minimum viable version of the we
 
 This pages roster also includes secondary user-specific features as well as protection features for unwanted users.
 
-### Design choices
+### UX
 
-#### Fonts
+#### Wireframes
+
+Prototyping guidelines for content and user flow.
+
+The users will interact with the system:
+- Landing page with hero picture, elevator pitch and 2 differentiated CTA – investor/partner and interested user of OTA
+- For investors/partners – brief description 10 sentences + “read more” – CTA: “Meet me to hear more”
+- Investor+partnership registration with “book timeslot” (ext. link)- If possible, confirmation page with either links back to site or branding
+- Short customer pitch with links to “Register for further developments”, “Crowdfund this project” (ext. link) and “Encourage our initiative – Buy me a coffee” (ext. link)
+- Detailed business project “Executive Summary” of business plan as “Read more” link destination for Investors+partnership
+- Register for more information - form
+- Information for prospective hoteliers about LGBTQIA+ hotels – CTA 
+- About page
+
+Not implemented in this phase:
+- "Detailed business project “Executive Summary” of business plan as “Read more” link destination for Investors+partnership" - This will be either a page in the parent website Arlesiana or a showcase on LinkedIn
+- "Register for more information - form" - implemented, but as a hidden feature on 404 page, to protect the website.
+
+##### General responsiveness
+
+The responsive design is quite consistent over the project. It involves a mix of Bootstrap grid for the more complex features, often containing up to 4 breakpoints, and standard flexbox, mostly when only two breakpoints are involved. The page containing most of the features is the index.html whose responsiveness from smallest media to largest should flow according to this wireframe:
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br>General responsiveness from smallest to widest viewport. Footer not yet defined. Will probably be about the hosting platform Arlesiana.<br>- Will use flexbox and some Bootstrap<br>- Bootstrap grid for the articles<br>- Bootstrap navbar - overriding most of it with own css, though.|![rm_wf_gal_responsiveness](assets/images/rm_wf_gal_responsiveness.png)|
+
+The other pages would follow the general pattern of the Hompepage layout-wise, limiting the rendering in two columns, which would stack one above the other in smaller wiewports. 
+
+##### Homepage
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> General layout of index/home page. The content cards <in the Bootstrap grid will link to particular bookmarked sections in the <hoteliers page and - apart distracting the not-targeted audience - will possibly also cater to some of the principal questions of the investors.|![rm_wf_index](assets/images/rm_wf_index.png)|
+
+##### Investors and partners page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> Main expectation is that possible investors take an appointment with the cal.com embed. There will be possibly a short elevator pitch in the video to help the investors to get an idea of my voice and face. <br> The partnership section below is the part to which the "partner with us" link of the navbar will be pointing to.|![rm_wf_investors](assets/images/rm_wf_investors.png)|
+
+##### End-user page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> The purpose of the page is to collect information about the engagement and the level of engagement of the expected end-users. To that end, there will be three CTA's:<br>- A link to a crowdfunding page<br>- A widget of "buy me a coffee"<br>- A link to form/mailchimp for inscription to a newsletter.<br>The assets to target more the consumers rather than stakeholders.|![rm_wf_crowdfunding](assets/images/rm_wf_crowdfunding.png)|
+
+##### Hotel-owners page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> The purpose of the page is to make the existing or prospective hoteliers knowledgeable about the  existence of the project. The hoteliers aren't yet targeted since the questions of their interests depend of the feedback by investors and responsiveness of possible end-users. <br> However, some topics within should also answer doubts and questions of the stakeholders.|![rm_wf_hoteliers](assets/images/rm_wf_hoteliers.png)|
+
+##### About the project page
+
+|Purpose and project|wireframe|
+|:-------------------|:---------:|
+|*ORIGINAL PROJECT NOTES:*<br> A short paragraph of informtion about the timeline and dependencies of the project as well as link to future showcase on LinkedIn. Short summary of the project director,  and some links to connect. <br><br> *ABOUT THE IMPLEMENTATION:*<br>Originally the project contemplated adding a short video presentation of the project and of the project manager, to familiarise the possible investor or partner about the voice and aspect of the interlocutor. However, since it would not be possible to embed a video player and including a Youtube or Vimeo video was considered counterproductive, a brief description of the USP's was considered more adequate. <br> This is the most important variation of the final implementation regarding the original project|![rm_wf_about](assets/images/rm_wf_about.png)|
+
+##### 404-page
+
+The 404 page was originally designed to just contain the short message about the issue, with the general NavBar allowing a way out to any other page. 
+
+However, with time, it was considered reasonable to allow the user to report the issue, with most basic user form, projected to be a unique stack of 4 fields of data entry, all of the same size, stacked one on top of the other. Later the idea evolved to include general contact features to allow a hater-safe way of contacting the project management. 
+
+Generally speaking, the final coding corresponds mostly to the projected wireframes. Most changes correspond to giving the pages breathing space for an easier reading, including decorative assets, with no other purpose than providing negative space.
+
+### UI
+
+Guidelines for Visual Content, Skeleton and Prototypes
+
+#### Layout:
+
+**1/ Key interface elements**
+
+- Navbar will be located at the top of the pages. It will contain the page links/hamburger menu and the logo of Arlesiana (link to arlesiana home). Needs to be a light colour, since the Arlesiana Logo is black and white.
+- CTA should be playful and attractive, and available at the bottom of each paragraph of the landing page, whenever the page is going to require a real action. Whenever the destination is an information page, use links.
+- Footer will contain traditional impressum information, copyright and SM links
+- The about page will contain LinkedIn banners
+How will the user interact with these elements?
+- Links and CTA’s to be clicked. Forms to be filled. Timeslot to be selected.
+
+**2/ Visual hierarchy**
+
+Traditional F: 
+- Navbar
+- Hero image with Header 1 including catchphrase
+- Two Short pitches in parallel columns – one for investors/partners another one for end-users of OTA, both with their respective CTA.
+- To fill-up information for hoteliers. Five links in boxes with pics, but with href to bookmarks in the same document to simulate the website being with abundant information and the project more advanced than it is.
+
+**Paradigm for design choices (colours, fonts, branding):**
+
+- Background: Off-white, Colour swatch from basic colours as used in the official LGBTQ banner – not extended banners
+- Font-colour picked from hero picture. CTA colour scheme to be taken from swatch.
+- Logotype use Arlesiana logo (black and white) contrast with Holigay swatch. The click on logo takes you to Arlesiana website. 
+- Not yet Holigays-specific final branding (leave open for investors or partners) or logos. Use generic LGBTQAI+ related branding to not commit too early. Use very light neutral colour filter on assets to simulate uniform branding possibly “Tekhelet” (#075299) or “Egyptian Gold” (#E7C38A)
+
+#### Design choices
+
+##### Fonts
 The basic choice for bespoke as well as for the browser default fonts are Sans-Serif fonts:
 - Syne
 - Syne-mono
@@ -75,70 +247,20 @@ The basic choice for bespoke as well as for the browser default fonts are Sans-S
 |The stylistically defining font used for the website is Syne. Its whimsical and elegant, though simple styling asserts a corporate message conform with the common Pride Slogan "We are Queer and we are here!". Mostly this font appears as cobalt blue #1E3A5F in headers 1-6, in a smooth contrast with the off-white background.|Some interactive elements use a more aggressive version of Syne, Syne Mono, to give a sense of action. This is mostly used in hyperlinks, among others in the NavBar.|The main content is rendered in a tame, neutral and corporately acceptable sans-serif font of IBM Plex sans, for a smooth reading.|
 |![rm_fonts_syne_std](assets/images/rm_fonts_syne_std.png)|![rm_fonts_syne_mono](assets/images/rm_fonts_syne_mono.png)|![rm_fonts_syne_std](assets/images/rm_fonts_syne_std.png)|
 
-#### Icons
+##### Icons
 Icons linked from FontAwesome library
 
-#### Images
+##### Images
 Logotype use Arlesiana logo (black and white) contrast with Holigay swatch. The click on logo takes you to Arlesiana website.
 Hero-image of own copyright from Brighton Pride.
 Other assets from fee-of-charge stock
 
-#### Branding and Swatches
+##### Branding and Swatches
 Background: Off-white, Colour swatch from basic colours as used in the official LGBTQ banner – not extended banners.
 Font-colour picked from hero picture. CTA colour scheme to be taken from swatch.
 Not yet Holigays-specific final branding (leave open for investors or partners) or logos. Use generic LGBTQAI+ related branding to not commit too early. Use very light neutral colour filter on assets to simulate uniform branding possibly “Tekhelet” (#075299) or “Egyptian Gold” (#E7C38A).
 Provisory Branding including graphics and mockup logo are based on the LGBTQIA+ rainbow flag. Text and font elements are compatible with a limited swatch:
 ![Full swatch](assets/images/full_swatch.PNG)
-
-### Wireframes
-
-#### General responsiveness
-
-The responsive design is quite consistent over the project. It involves a mix of Bootstrap grid for the more complex features, often containing up to 4 breakpoints, and standard flexbox, mostly when only two breakpoints are involved. The page containing most of the features is the index.html whose responsiveness from smallest media to largest should flow according to this wireframe:
-
-|Purpose and project|wireframe|
-|:-------------------|:---------:|
-|*ORIGINAL PROJECT NOTES:*<br>General responsiveness from smallest to widest viewport. Footer not yet defined. Will probably be about the hosting platform Arlesiana.<br>- Will use flexbox and some Bootstrap<br>- Bootstrap grid for the articles<br>- Bootstrap navbar - overriding most of it with own css, though.|![rm_wf_gal_responsiveness](assets/images/rm_wf_gal_responsiveness.png)|
-
-The other pages would follow the general pattern of the Hompepage layout-wise, limiting the rendering in two columns, which would stack one above the other in smaller wiewports. 
-
-#### Homepage
-
-|Purpose and project|wireframe|
-|:-------------------|:---------:|
-|*ORIGINAL PROJECT NOTES:*<br> General layout of index/home page. The content cards <in the Bootstrap grid will link to particular bookmarked sections in the <hoteliers page and - apart distracting the not-targeted audience - will possibly also cater to some of the principal questions of the investors.|![rm_wf_index](assets/images/rm_wf_index.png)|
-
-#### Investors and partners page
-
-|Purpose and project|wireframe|
-|:-------------------|:---------:|
-|*ORIGINAL PROJECT NOTES:*<br> Main expectation is that possible investors take an appointment with the cal.com embed. There will be possibly a short elevator pitch in the video to help the investors to get an idea of my voice and face. <br> The partnership section below is the part to which the "partner with us" link of the navbar will be pointing to.|![rm_wf_investors](assets/images/rm_wf_investors.png)|
-
-#### End-user page
-
-|Purpose and project|wireframe|
-|:-------------------|:---------:|
-|*ORIGINAL PROJECT NOTES:*<br> The purpose of the page is to collect information about the engagement and the level of engagement of the expected end-users. To that end, there will be three CTA's:<br>- A link to a crowdfunding page<br>- A widget of "buy me a coffee"<br>- A link to form/mailchimp for inscription to a newsletter.<br>The assets to target more the consumers rather than stakeholders.|![rm_wf_crowdfunding](assets/images/rm_wf_crowdfunding.png)|
-
-#### Hotel-owners page
-
-|Purpose and project|wireframe|
-|:-------------------|:---------:|
-|*ORIGINAL PROJECT NOTES:*<br> The purpose of the page is to make the existing or prospective hoteliers knowledgeable about the  existence of the project. The hoteliers aren't yet targeted since the questions of their interests depend of the feedback by investors and responsiveness of possible end-users. <br> However, some topics within should also answer doubts and questions of the stakeholders.|![rm_wf_hoteliers](assets/images/rm_wf_hoteliers.png)|
-
-#### About the project page
-
-|Purpose and project|wireframe|
-|:-------------------|:---------:|
-|*ORIGINAL PROJECT NOTES:*<br> A short paragraph of informtion about the timeline and dependencies of the project as well as link to future showcase on LinkedIn. Short summary of the project director,  and some links to connect. <br><br> *ABOUT THE IMPLEMENTATION:*<br>Originally the project contemplated adding a short video presentation of the project and of the project manager, to familiarise the possible investor or partner about the voice and aspect of the interlocutor. However, since it would not be possible to embed a video player and including a Youtube or Vimeo video was considered counterproductive, a brief description of the USP's was considered more adequate. <br> This is the most important variation of the final implementation regarding the original project|![rm_wf_about](assets/images/rm_wf_about.png)|
-
-#### 404-page
-
-The 404 page was originally designed to just contain the short message about the issue, with the general NavBar allowing a way out to any other page. 
-
-However, with time, it was considered reasonable to allow the user to report the issue, with most basic user form, projected to be a unique stack of 4 fields of data entry, all of the same size, stacked one on top of the other. Later the idea evolved to include general contact features to allow a hater-safe way of contacting the project management. 
-
-Generally speaking, the final coding corresponds mostly to the projected wireframes. Most changes correspond to giving the pages breathing space for an easier reading, including decorative assets, with no other purpose than providing negative space.
 
 <!-- Paste FEATURES section from here -->
 ## Features
@@ -318,8 +440,10 @@ Should the project take off, the website will be hosted on sub web of Arlesiana 
 <!-- End FEATURES SECTION -->
 ## Technologies used
 HTML
+
 CSS
-Frameworks and libraris:
+
+Frameworks and libraries:
 - Bootstrap
 - Google Fonts
 - FontAwesome
@@ -333,6 +457,10 @@ Microsoft's VS Code was the main IDE during the coding of the website.
 ### Versions Control
 
 GitHub has been the only interface of versions control, throughout the project.
+
+#### Changelog
+
+Check external [changelog](CHANGELOG.md)
 
 ### Project Management
 
