@@ -480,7 +480,7 @@ Balsamiq
 
 ### Assets Management
 
-Considering the elevated number of assets and their backups, Adobe Bridge was used to file, tag and keyword editing. Multiple changes to assets actually stem from the update of the tags.
+Considering the elevated number of assets (around 20 for the main interface, short of 100 including the assets for the documentation) and their backups, Adobe Bridge was used to file, tag and keyword editing. Multiple changes to assets actually stem from the update of the tags.
 
 ## Testing
 
@@ -490,11 +490,36 @@ See [TESTING.md](TESTING.md)
 Deployed at https://pedros-studies.github.io/Holigays_funding/
 
 ## Credits
-Adobe Stock
-UnSplash
-Adobe Firefly
+
+### Visual assets
+
+**PICTURES BY PEDRO SVAETICHIN**
+- Hero-image
+- Full-screen-width landscape picture
+- "My Cat is Gay"
+
+**ADOBE STOCK**
+
+- AdobeStock_220314960
+- AdobeStock_565275361
+- AdobeStock_632953374
+- AdobeStock_1245804243
+
+**UNSPLASH**
+
+Requested copyright references for free use:
+
+Photo by <a href="https://unsplash.com/@brnkd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brian Kyed</a> on <a href="https://unsplash.com/photos/women-in-white-sleeveless-top-P7EFJs577Xg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@thandyung?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thandy Yung</a> on <a href="https://unsplash.com/photos/woman-in-black-shirt-and-black-shorts-running-on-track-field-during-daytime-hHRWXhnDZe4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@max_boehme?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Max Böhme</a> on <a href="https://unsplash.com/photos/a-small-white-building-with-a-rainbow-door-QVsANstLB44?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+Photo by <a href="https://unsplash.com/@dustinhumes_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dustin Humes</a> on <a href="https://unsplash.com/photos/a-small-dog-wearing-a-colorful-collar-and-leash-pwdvIPYLXxE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ### Content
-Content has been generated with Google Gemini Flash 2.0
 
+Content has been generated with Google Gemini Flash 2.0.
+
+JavaScript - not relevant for the purpose of this school project evaluation - has been generated with Microsoft Copilot.
 
