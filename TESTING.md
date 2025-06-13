@@ -1,11 +1,59 @@
 # Testing and accessibility
 
+<!--STart ToC-->
+## Table of contents
+<ul>
+    <details>
+        <summary><a href="#code-testing">Code testing</a></summary>
+        <ul>
+            <li><a href="#html-validation">HTML validation</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary><a href="#css-testing">CSS testing</a></summary>
+        <ul>
+            <li><a href="#font-optical-resizing">Font optical resizing</a></li>
+            <li><a href="#font-variation-settings">Font variation settings</a></li>
+        </ul>
+    </details>
+    <li><a href="#broken-links">Broken links</a></li>
+    <details>
+        <summary><a href="#accessibility-testing">Accessibility testing</a></summary>
+        <ul>
+            <li><a href="#homepage">Homepage</a></li>
+            <li><a href="#investors">Investors</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#hoteliers">Hoteliers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#404-page">404 page</a></li>
+            <li><a href="#unexpected-issues">Unexpected issues in intermediate accessibility testing</a></li>
+            <li><a href="#pagespeed-insights">About the other tests of PageSpeed insights</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary><a href="#viewport-testing">Viewport testing</a></summary>
+        <ul>
+            <li><a href="#desktop-response">Desktop Browser response</a></li>
+            <li><a href="#handheld-response">Handheld devices response</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary><a href="#debugging">Debugging</a></summary>
+        <ul>
+            <li><a href="#known-bugs">Known bugs</a></li>
+        </ul>
+    </details>
+    <li><a href="#ongoing-testing">Ongoing testing</a></li>
+</ul>
+<!--End of ToC-->
+
 ## Code testing
 
 ### HTML validation
 
 The W3C html validation didn't find any errors in the code of the website.
-![rm_w3c_html_validation](rm_w3c_html_validation.PNG)
+
+![rm_w3c_html_validation](assets/images/rm_w3c_html_validation.png)
 
 ## CSS testing
 
