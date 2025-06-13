@@ -463,7 +463,7 @@ The element containing responsive Bootstrap framework element includes automatic
 
 The NavBar uses as font the Google font IBM Plex Sans, with alternative of sans-serif and an 1.2 x enhanced size to facilitate the visualisation for a more accessible experience. 
 
-All the links to existing pages include "disabled" as class and "aria-current" for the active page, with the exception of 
+All the links to existing pages include "active" as class and "aria-current" for the active page, with the exception of 
 - Partners link which points to a bookmark in the investors page, and which would be useful to have active in case somebody on the same page wanted to jump to the bookmark.
 - 404 page: this page obviously doesn't appear in the NavBar.
 
