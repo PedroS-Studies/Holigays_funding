@@ -53,7 +53,7 @@
 
 The W3C html validation didn't find any errors in the code of the website.
 
-![rm_w3c_html_validation](assets/images/rm_w3c_html_validation.png)
+![rm_w3c_html_validation](assets/images/rm_w3c_html_validation.PNG)
 
 ## CSS testing
 
