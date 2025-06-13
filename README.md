@@ -557,14 +557,18 @@ Should the project take off, the website will be hosted on sub web of Arlesiana 
 
 <!-- End FEATURES SECTION -->
 ## Technologies used
+
 HTML
 
 CSS
 
 Frameworks and libraries:
+
 - Bootstrap
-- Google Fonts
-- FontAwesome
+-  Google Fonts
+-  FontAwesome
+
+Markdown
 
 ## Tools
 
@@ -648,4 +652,6 @@ Photo by <a href="https://unsplash.com/@dustinhumes_photography?utm_content=cred
 Content has been generated with Google Gemini Flash 2.0.
 
 JavaScript - not relevant for the purpose of this school project evaluation - has been generated with Microsoft Copilot.
+
+The Table of contents has been elaborated with MS Word, MS Excel, MS Notepad and MS Copilot.
 

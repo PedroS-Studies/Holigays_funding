@@ -2,8 +2,10 @@
 
 ## Code testing
 
-![def_html_testing2](assets/images/def_html_testing2.PNG)
-![def_html_testing3](assets/images/def_html_testing3.PNG)
+### HTML validation
+
+The W3C html validation didn't find any errors in the code of the website.
+![rm_w3c_html_validation](rm_w3c_html_validation.PNG)
 
 ## CSS testing
 
@@ -35,13 +37,83 @@ The second link noted by the validator relates to LinkedIn, which however isn't 
 
 ## Accessibility testing
 
-![def_accessibility](assets/images/def_accessibility.PNG)
+All the pages of the website passed the PageSpeed testing for accessibility with 100% of validation.
 
-The intermediate HTML testing produced a warning of a possible abusive aria-label in the footer.
+### Homepage
+
+**Desktop:**
+
+![rm_pagespeed_index_desktop](assets/images/rm_pagespeed_index_desktop.png)
+
+**Mobile:**
+
+![rm_pagespeed_index_mobile](assets/images/rm_pagespeed_index_mobile.png)
+
+### Investors
+
+**Desktop:**
+
+![rm_pagespeed_investors_desktop](assets/images/rm_pagespeed_investors_desktop.png)
+
+**Mobile:**
+
+![rm_pagespeed_investors_mobile](assets/images/rm_pagespeed_investors_mobile.png)
+
+### Support
+
+**Desktop:**
+
+![rm_pagespeed_support_desktop](assets/images/rm_pagespeed_support_desktop.png)
+
+**Mobile:**
+
+![rm_pagespeed_support_mobile](assets/images/rm_pagespeed_support_mobile.png)
+
+### Hoteliers
+
+**Desktop:**
+
+![rm_pagespeed_hoteliers_desktop](assets/images/rm_pagespeed_hoteliers_desktop.png)
+
+**Mobile:**
+
+![rm_pagespeed_hoteliers_mobile](assets/images/rm_pagespeed_hoteliers_mobile.png)
+
+### About 
+
+**Desktop:**
+
+![rm_pagespeed_about_desktop](assets/images/rm_pagespeed_about_desktop.png)
+
+**Mobile:**
+
+![rm_pagespeed_about_mobile](assets/images/rm_pagespeed_about_mobile.PNG)
+
+### 404 page
+
+**Desktop:**
+
+![rm_pagespeed_404_desktop](assets/images/rm_pagespeed_404_desktop.png)
+
+**Mobile:**
+
+![rm_pagespeed_404_mobile](assets/images/rm_pagespeed_404_mobile.png)
+
+### Unexpected issues in intermediate accessibility testing
+
+The intermediate HTML testing produced a warning of a possible abusive aria-label in the footer:
 
 ![rm_html_warning_misuse_aria-labels](assets/images/rm_html_warning_misuse_aria-labels.png)
 
 The aria-label has been momentarily deleted, but flagged for reinstatement in the future with further testing with WAVE to confirm.
+
+Also to comply with the intermediate testing, it was necessary to replace "disabled" class with BootStrap class "active" of the active navbar link for foreground and background not having enough contrast for accessibility test.
+
+### About the other tests of PageSpeed insights
+
+Though Accessibility and Best practice received top validation, SEO score was kept low for the presence of "noindex" and "nofollow" robots-metatags on all the pages. This is however a provisory situation until further implementation has been done.
+
+The Performance also scored lousy results, especially for handheld devices for the high-quality assets and the presence of 3rd party cookies due to the embedded widgets.
 
 ## Viewport testing
 
