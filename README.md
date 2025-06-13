@@ -35,6 +35,105 @@ The first of this series of modules is aiming to raise funds for the project and
 This was the origin story of Holigays Central!
 
 # Table of Content
+<!--start ToC-->
+<ul>
+    <li><a href="#user-experience">User Experience and user stories</a></li>
+    <details>
+        <summary><a href="#strategy">Strategy</a></summary>
+    </details>
+    <details>
+        <summary><a href="#scope">Scope</a></summary>
+    </details>
+    <details>
+        <summary><a href="#goal">Goal</a></summary>
+    </details>
+    <details>
+        <summary><a href="#user-stories">User Stories</a></summary>
+        <ul>
+            <li><a href="#user-classification">User classification</a></li>
+            <li><a href="#priority-tasks">Priority of tasks</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary><a href="#pages">Pages</a></summary>
+    </details>
+    <details>
+        <summary><a href="#ux">UX</a></summary>
+        <ul>
+            <details>
+                <summary><a href="#wireframes">Wireframes</a></summary>
+                <ul>
+                    <li><a href="#responsiveness">General responsiveness</a></li>
+                    <li><a href="#homepage">Homepage</a></li>
+                    <li><a href="#investors">Investors and partners page</a></li>
+                    <li><a href="#end-user">End-user page</a></li>
+                    <li><a href="#hotel-owners">Hotel-owners page</a></li>
+                    <li><a href="#about-project">About the project page</a></li>
+                    <li><a href="#404-page">404-page</a></li>
+                </ul>
+            </details>
+        </ul>
+    </details>
+    <details>
+        <summary><a href="#ui">UI</a></summary>
+        <ul>
+            <li><a href="#layout">Layout</a></li>
+            <details>
+                <summary><a href="#design-choices">Design choices</a></summary>
+                <ul>
+                    <li><a href="#fonts">Fonts</a></li>
+                    <li><a href="#icons">Icons</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#branding-swatches">Branding and Swatches</a></li>
+                </ul>
+            </details>
+        </ul>
+    </details>
+</ul>
+<li><a href="#features">Features</a></li>
+<details>
+    <summary><a href="#global-features">Global Features</a></summary>
+    <ul>
+        <li><a href="#safety-features">Safety Features - general sentiment</a></li>
+        <li><a href="#interactive-features">Interactive features</a></li>
+        <li><a href="#accessibility-features">Accessibility features</a></li>
+        <details>
+            <summary><a href="#marketing-features">Non-UX related Marketing features</a></summary>
+            <ul>
+                <li><a href="#seo">SEO</a></li>
+                <details>
+                    <summary><a href="#metatags">Metatags</a></summary>
+                </details>
+                <li><a href="#customer-demographics">Customerbase demographics</a></li>
+            </ul>
+        </details>
+    </ul>
+</details>
+<details>
+    <summary><a href="#shared-features">Shared Features</a></summary>
+    <ul>
+        <li><a href="#navbar">Navbar</a></li>
+        <li><a href="#footer">Footer</a></li>
+    </ul>
+</details>
+<li><a href="#technologies">Technologies used</a></li>
+<li><a href="#tools">Tools</a></li>
+<details>
+    <summary><a href="#version-control">Version Control</a></summary>
+    <ul>
+        <li><a href="#changelog">Changelog</a></li>
+    </ul>
+</details>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#deployment">Deployment</a></li>
+<details>
+    <summary><a href="#credits">Credits</a></summary>
+    <ul>
+        <li><a href="#visual-assets">Visual assets</a></li>
+        <li><a href="#content">Content</a></li>
+    </ul>
+</details>
+<!--end ToC-->
 
 ## User Experience and user stories
 
