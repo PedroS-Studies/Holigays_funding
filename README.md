@@ -37,102 +37,121 @@ This was the origin story of Holigays Central!
 # Table of Content
 <!--start ToC-->
 <ul>
-    <li><a href="#user-experience">User Experience and user stories</a></li>
     <details>
-        <summary><a href="#strategy">Strategy</a></summary>
-    </details>
-    <details>
-        <summary><a href="#scope">Scope</a></summary>
-    </details>
-    <details>
-        <summary><a href="#goal">Goal</a></summary>
-    </details>
-    <details>
-        <summary><a href="#user-stories">User Stories</a></summary>
+        <summary><a href="#user-experience">User Experience and user stories</a></summary>
         <ul>
-            <li><a href="#user-classification">User classification</a></li>
-            <li><a href="#priority-tasks">Priority of tasks</a></li>
-        </ul>
-    </details>
-    <details>
-        <summary><a href="#pages">Pages</a></summary>
-    </details>
-    <details>
-        <summary><a href="#ux">UX</a></summary>
-        <ul>
+            <li><a href="#strategy">Strategy</a></li>
+            <li><a href="#scope">Scope</a></li>
+            <li><a href="#goal">Goal</a></li>
             <details>
-                <summary><a href="#wireframes">Wireframes</a></summary>
+                <summary><a href="#user-stories">User Stories</a></summary>
                 <ul>
-                    <li><a href="#responsiveness">General responsiveness</a></li>
-                    <li><a href="#homepage">Homepage</a></li>
-                    <li><a href="#investors">Investors and partners page</a></li>
-                    <li><a href="#end-user">End-user page</a></li>
-                    <li><a href="#hotel-owners">Hotel-owners page</a></li>
-                    <li><a href="#about-project">About the project page</a></li>
-                    <li><a href="#404-page">404-page</a></li>
+                    <li><a href="#user-classification">User classification</a></li>
+                    <li><a href="#priority-tasks">Priority of tasks</a></li>
+                </ul>
+            </details>
+            <li><a href="#projected-pages">Projected pages</a></li>
+            <details>
+                <summary><a href="#ux">UX</a></summary>
+                <ul>
+                    <details>
+                        <summary><a href="#wireframes">Wireframes</a></summary>
+                        <ul>
+                            <li><a href="#responsiveness">General responsiveness</a></li>
+                            <li><a href="#homepage">Homepage</a></li>
+                            <li><a href="#investors">Investors and partners page</a></li>
+                            <li><a href="#end-user">End-user page (support)</a></li>
+                            <li><a href="#hotel-owners">Hotel-owners page</a></li>
+                            <li><a href="#about-project">About the project page</a></li>
+                            <li><a href="#404-page">404-page</a></li>
+                        </ul>
+                    </details>
+                </ul>
+            </details>
+            <details>
+                <summary><a href="#ui">UI</a></summary>
+                <ul>
+                    <li><a href="#layout">Layout</a></li>
+                    <li><a href="#design-choices">Design choices</a></li>
+                    <ul>
+                        <li><a href="#fonts">Fonts</a></li>
+                        <li><a href="#icons">Icons</a></li>
+                        <li><a href="#images">Images</a></li>
+                        <li><a href="#branding-swatches">Branding and Swatches</a></li>
+                    </ul>
                 </ul>
             </details>
         </ul>
     </details>
     <details>
-        <summary><a href="#ui">UI</a></summary>
+        <summary><a href="#features">Features</a></summary>
         <ul>
-            <li><a href="#layout">Layout</a></li>
             <details>
-                <summary><a href="#design-choices">Design choices</a></summary>
+                <summary><a href="#global-features">Global Features</a></summary>
                 <ul>
-                    <li><a href="#fonts">Fonts</a></li>
-                    <li><a href="#icons">Icons</a></li>
-                    <li><a href="#images">Images</a></li>
-                    <li><a href="#branding-swatches">Branding and Swatches</a></li>
+                    <li><a href="#safety-features">Safety Features - general sentiment</a></li>
+                    <li><a href="#interactive-features">Interactive features</a></li>
+                    <li><a href="#accessibility-features">Accessibility features</a></li>
+                    <details>
+                        <summary><a href="#marketing-features">Non-UX related Marketing features</a></summary>
+                        <ul>
+                            <li><a href="#seo">SEO</a></li>
+                            <li><a href="#metatags">Metatags</a></li>
+                            <li><a href="#customer-demographics">Customerbase demographics</a></li>
+                        </ul>
+                    </details>
                 </ul>
             </details>
+            <details>
+                <summary><a href="#shared-features">Shared Features</a></summary>
+                <ul>
+                    <li><a href="#navbar">Navbar</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary><a href="#implemented-pages">Implemented pages</a></summary>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#investors">Investors and partners</a></li>
+                    <li><a href="#support">Support (Crowdfunding)</a></li>
+                    <li><a href="#hoteliers">Hoteliers</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#404-page">The 404 page</a></li>
+                </ul>
+            </details>
+            <li><a href="#future-features">Future Features</a></li>
+        </ul>
+    </details>
+    <li><a href="#technologies-used">Technologies used</a></li>
+    <details>
+        <summary><a href="#tools">Tools</a></summary>
+        <ul>
+            <li><a href="#ide">IDE</a></li>
+            <details>
+                <summary><a href="#versions-control">Versions Control</a></summary>
+                <ul>
+                    <li><a href="#git">GIT</a></li>
+                    <li><a href="#github-profiles">GitHub profiles</a></li>
+                    <li><a href="#changelog-releases">Changelog and releases</a></li>
+                </ul>
+            </details>
+            <li><a href="#project-management">Project Management</a></li>
+            <li><a href="#asset-editors">Assets Editors</a></li>
+            <li><a href="#wireframes-generation">Wireframes generation</a></li>
+            <li><a href="#assets-management">Assets Management</a></li>
+        </ul>
+    </details>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+    <details>
+        <summary><a href="#credits">Credits</a></summary>
+        <ul>
+            <li><a href="#visual-assets">Visual assets</a></li>
+            <li><a href="#content">Content</a></li>
         </ul>
     </details>
 </ul>
-<li><a href="#features">Features</a></li>
-<details>
-    <summary><a href="#global-features">Global Features</a></summary>
-    <ul>
-        <li><a href="#safety-features">Safety Features - general sentiment</a></li>
-        <li><a href="#interactive-features">Interactive features</a></li>
-        <li><a href="#accessibility-features">Accessibility features</a></li>
-        <details>
-            <summary><a href="#marketing-features">Non-UX related Marketing features</a></summary>
-            <ul>
-                <li><a href="#seo">SEO</a></li>
-                <details>
-                    <summary><a href="#metatags">Metatags</a></summary>
-                </details>
-                <li><a href="#customer-demographics">Customerbase demographics</a></li>
-            </ul>
-        </details>
-    </ul>
-</details>
-<details>
-    <summary><a href="#shared-features">Shared Features</a></summary>
-    <ul>
-        <li><a href="#navbar">Navbar</a></li>
-        <li><a href="#footer">Footer</a></li>
-    </ul>
-</details>
-<li><a href="#technologies">Technologies used</a></li>
-<li><a href="#tools">Tools</a></li>
-<details>
-    <summary><a href="#version-control">Version Control</a></summary>
-    <ul>
-        <li><a href="#changelog">Changelog</a></li>
-    </ul>
-</details>
-<li><a href="#testing">Testing</a></li>
-<li><a href="#deployment">Deployment</a></li>
-<details>
-    <summary><a href="#credits">Credits</a></summary>
-    <ul>
-        <li><a href="#visual-assets">Visual assets</a></li>
-        <li><a href="#content">Content</a></li>
-    </ul>
-</details>
 <!--end ToC-->
 
 ## User Experience and user stories
@@ -222,7 +241,7 @@ The required features to answer to the user's needs:
 - Information about LGBTQIA+ hotels for prospective hoteliers
 - Technologies involved
 
-### Pages
+### Projected pages
 
 In light of the user stories, it seems that the minimum viable version of the website should have the following pages, of which at least three potential landing pages, once the project includes a SEO phase.
 
@@ -277,7 +296,7 @@ The other pages would follow the general pattern of the Hompepage layout-wise, l
 |:-------------------|:---------:|
 |*ORIGINAL PROJECT NOTES:*<br> Main expectation is that possible investors take an appointment with the cal.com embed. There will be possibly a short elevator pitch in the video to help the investors to get an idea of my voice and face. <br> The partnership section below is the part to which the "partner with us" link of the navbar will be pointing to.|![rm_wf_investors](assets/images/rm_wf_investors.png)|
 
-##### End-user page
+##### End-user page (support)
 
 |Purpose and project|wireframe|
 |:-------------------|:---------:|
@@ -456,7 +475,7 @@ It also contains an intentionally broken link to an inexistent page “contact.h
 
 The styling of the footer duplicates the styling of the NavBar and also contains a Bootstrap grid structure for responsiveness.
 
-### Pages
+### Implemented pages
 
 #### Home
 
@@ -480,7 +499,7 @@ The focal point of the page is the interactive cal.com widget located between th
 
 The page is intentionally frugal and essential to be taken in in a minimal lapse of time and inviting to a spontaneous reaction to the CTA. 
 
-#### Crowdfunding
+#### Support (Crowdfunding)
 
 ![rm_crowdfunding_coffee](assets/images/rm_crowdfunding_coffee.PNG)
 
@@ -512,7 +531,7 @@ The page gives an overview of the project, and it also features a personal summa
 
 The project overview is accompanied by a strong impact picture, letting the user understand that the project is related to a niche of adult sexual identity related hospitality. This highlights the fact that the acceptance of any commitment has moral repercussions beyond a simple DEI statement.
 
-#### 404 page
+#### The 404 page
 
 ![rm_404](assets/images/rm_404.PNG)
 
@@ -553,11 +572,19 @@ Frameworks and libraries:
 
 Microsoft's VS Code was the main IDE during the coding of the website.
 
+Adobe Dreamweaver: VS Code stopped working in critical moments of the project. Some raw code was edited in the alternative IDE.
+
 ### Versions Control
+
+#### GIT
 
 GitHub has been the only interface of versions control, throughout the project.
 
-#### Changelog
+##### GitHub profiles
+
+The developer has two GitHub profiles. The lionshare of commits has been done under the current user. However, in times when VS Code was having issues, the secondary profile **PedroSv-bit** was used. 
+
+#### Changelog and releases
 
 Check external [changelog](CHANGELOG.md)
 
@@ -573,7 +600,7 @@ Adobe Lightroom Classic 2025
 
 TechSini Multi Device Website Mockup Generator
 
-### Wireframes
+### Wireframes generation
 
 Balsamiq
 
