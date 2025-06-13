@@ -123,7 +123,9 @@ This was the origin story of Holigays Central!
             <li><a href="#future-features">Future Features</a></li>
         </ul>
     </details>
-    <li><a href="#technologies-used">Technologies used</a></li>
+    <details>
+    <summary><li><a href="#technologies-used">Technologies used</a></li></summary>
+    </details>
     <details>
         <summary><a href="#tools">Tools</a></summary>
         <ul>
