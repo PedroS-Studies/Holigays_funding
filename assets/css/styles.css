@@ -93,8 +93,7 @@ fieldset {
     background-color: #FFC107 !important;
     border: 2px solid #28A745;
     font-family: "IBM Plex Sans", sans-serif;
-    font-size: 1.2em;
-    font-optical-sizing: auto;
+    font-size: 1.2em;    
     font-weight: 400;
     font-style: normal;
     color: #1E3A5F !important;    
