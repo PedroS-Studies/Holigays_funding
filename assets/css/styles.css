@@ -339,6 +339,24 @@ fieldset {
     display: none;
 }
 
+/* added 20250710 */
+/* Ensure the widget page fills the iframe and positions elements relative to it */
+.bmc-widget-body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Override the widget's default fixed positioning */
+.bmc-widget-body #bmc-wbtn {
+    position: absolute !important;
+    bottom: 18px !important;
+    left: 18px !important;
+}
+/* end added 20250710 */
+
 /*Parallax classes*/
 /*end parallax classes*/
 
