@@ -77,7 +77,7 @@ Though W3C css testing doesn't recognise the attribute, the Mozilla foundation r
 
 ## Broken links
 
-![rm_w3c_broken_links](rm_w3c_broken_links.png)
+![rm_w3c_broken_links](assets/images/rm_w3c_broken_links.png)
 
 The footer on every page contain a deliberate broken link. The purpose of the action is to mislead the possible trolls and haters to believing, that the form on the 404 page is only for the purpose of reporting an issue with a page. However, the form contains options for "contact request" and "General feedback", for the user who might be willing to investigate the feature further. An aria-label informs the users of the website about the purpose of the link and the use of the form.
 
