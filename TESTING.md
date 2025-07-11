@@ -51,9 +51,19 @@
 
 ### HTML validation
 
-The W3C html validation didn't find any errors in the code of the website.
+The W3C html validation didn't find any errors in the code of the website in version 0.2.0 . 
 
 ![rm_w3c_html_validation](assets/images/rm_w3c_html_validation.PNG)
+
+However, when retesting the pages individually for version 0.2.1 , W3C logged two warning:
+
+- on investors.html a warning regarding a redundant JavaScript declaration. However, this redundancy is part of the third party code relating to the cal.com and modifying that code for a simple redundancy might cause more issues than necessary.
+
+![rm_w3c__investors_redundancy](assets/images/rm_w3c__investors_redundancy.PNG)
+
+- on 404.html a warning about a possibly unnecessary aria-label to explain the reCaptcha widget. However, the author considers that the aria-label is necessary for the matter of accessibility of the form, which is mainly used for the profit of the diversely abled.
+
+![rm_w3c_404_aria-label](assets/images/rm_w3c_404_aria-label.png)
 
 ## CSS testing
 
