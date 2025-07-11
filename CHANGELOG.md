@@ -3,7 +3,9 @@
 ## [0.2.1] - 2025-07-11
 ### Bug fixes and cleaning
 - Changed CSS attributes logged by Jigsaw
-- Fixed the bug caused by the changes
+- New testing of the CSS
+- Changed page title tags to more descriptive and SEO-friendly content
+- Fixed the bug caused by the instability due to the changes
 - Deleted commented out code
 - Added favicon to every page.
 
