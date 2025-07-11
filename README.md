@@ -366,7 +366,9 @@ The basic choice for bespoke as well as for the browser default fonts are Sans-S
 |![rm_fonts_syne_std](assets/images/rm_fonts_syne_std.png)|![rm_fonts_syne_mono](assets/images/rm_fonts_syne_mono.png)|![rm_fonts_syne_std](assets/images/rm_fonts_syne_std.png)|
 
 ##### Icons
-Icons linked from FontAwesome library
+Icons linked from FontAwesome library.
+
+In version 0.2.1 a favicon was added to the header of each page.
 
 ##### Images
 Logotype use Arlesiana logo (black and white) contrast with Holigay swatch. The click on logo takes you to Arlesiana website.
@@ -564,9 +566,10 @@ CSS
 
 Frameworks and libraries:
 
-- Bootstrap
+-  Bootstrap
 -  Google Fonts
 -  FontAwesome
+-  favicon.io
 
 Markdown
 
