@@ -525,7 +525,7 @@ p a {
     .item1:nth-child(1),
     .item1:nth-child(2),
     .item1:nth-child(3) {
-        width: 100% !important; /
+        width: 100% !important; 
     }
     .row {
         display: flex;
