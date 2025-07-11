@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1] - 2025-07-11
+### Bug fixes and cleaning
+- Changed CSS attributes logged by Jigsaw
+- Fixed the bug caused by the changes
+- Deleted commented out code
+- Added favicon to every page.
+
 ## [0.2.0] - 2025-06-13
 ### Improved
 - Submitted for grading.
