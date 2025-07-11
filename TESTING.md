@@ -67,7 +67,7 @@ However, when retesting the pages individually for version 0.2.1 , W3C logged tw
 
 ## CSS testing
 
-The W3C stubbornly returns two errors regarding font values and properties:
+In version 0.2.0 the W3C validator stubbornly returned two errors regarding font values and properties:
 
 ![rm_css_w3c_20250611](assets/images/rm_css_w3c_20250611.png)
 
@@ -85,6 +85,12 @@ Though W3C css testing doesn't recognise the attribute, the Mozilla foundation r
 
 ![rm_mozilla_ref_font-variation-settings](assets/images/rm_mozilla_ref_font-variation-settings.png)
 
+For version 0.2.1 the two attibutes have been changed, with the result of the default font changes impacting on the stability of the embedded widget causing a bug. The bug has been fixed, but the code remains unstable. The author considers that after the project has been graded, the safest solution would be to reinstate the Mozilla foundation accepted code. 
+
+Currently, the Jigsaw validation of the css is returning a no errors or warnings:
+
+![rm_w3c_css_jigsaw_20250711](assets/images/rm_w3c_css_jigsaw_20250711.PNG)
+
 ## Broken links
 
 ![rm_w3c_broken_links](assets/images/rm_w3c_broken_links.png)
@@ -95,7 +101,7 @@ The second link noted by the validator relates to LinkedIn, which however isn't 
 
 ## Accessibility testing
 
-All the pages of the website passed the PageSpeed testing for accessibility with 100% of validation.
+All the pages of the website passed the PageSpeed testing for accessibility with 100% of validation. For version 0.2.1 the tests were run again, without the changes having had any impact on the accessibility.
 
 ### Homepage
 
@@ -211,6 +217,8 @@ The site has been tested on standard viewports of handheld devices. For smartpho
 ### Known bugs
 
 The JavaScript validation code for the "submit button" on 404 page doesn't send the form data to EmailJS as expected. This might however be due to the lack of backend verifcation of the reCAPTCHA code, which would need a backend. Since the requirements for the current project don't require a functioning POST method for the fieldset elements, it might be love's labour lost trying to fix this issue without having all the resources and remedies at hand.
+
+The mandatory changes for version 0.2.1 caused instability in the "buy me a coffee" widget page, in the iframe on support.html due to the variation of the main font in the body tag. The bug has been fixed, but for the overall stability of the site, the author is considering resetting the original code after the grading.
 
 ## Ongoing testing
 
