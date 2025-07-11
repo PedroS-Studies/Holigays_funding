@@ -214,7 +214,7 @@ fieldset {
     background: rgba(3, 103, 194, 0.9);
 }
 
-.overlay2 { /*testing*/
+.overlay2 { 
     position: absolute;
     top: 0;
     left: 0;
@@ -227,7 +227,7 @@ fieldset {
     background: rgba(233, 30, 99, 0.9);
 }
 
-.overlay4 { /*testing*/
+.overlay4 { 
     position: absolute;
     top: 0;
     left: 0;
@@ -240,7 +240,7 @@ fieldset {
     background: rgba(103, 58, 183, 0.9);
 }
 
-.overlay5 { /*testing*/
+.overlay5 { 
     position: absolute;
     top: 0;
     left: 0;
@@ -253,7 +253,7 @@ fieldset {
     background: rgba(255, 87, 34, 0.9);
 }
 
-.overlay6 { /*testing*/
+.overlay6 { 
     position: absolute;
     top: 0;
     left: 0;
@@ -339,7 +339,6 @@ fieldset {
     display: none;
 }
 
-/* added 20250710 */
 /* Ensure the widget page fills the iframe and positions elements relative to it */
 .bmc-widget-body {
     margin: 0;
@@ -355,17 +354,9 @@ fieldset {
     bottom: 18px !important;
     left: 18px !important;
 }
-/* end added 20250710 */
-
-/*Parallax classes*/
-/*end parallax classes*/
 
 /* Pseudo-classes */
-/*
-.overlay3:hover {
-    background: rgba(0, 0, 0, 0.6);
-}
-*/
+
 p a:hover {
     color: #1E3A5F;
     text-decoration: underline;
@@ -409,8 +400,8 @@ p a {
 
 .item2:nth-child(1) {
     width: 38%;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .item2:nth-child(2) {
@@ -534,7 +525,7 @@ p a {
     .item1:nth-child(1),
     .item1:nth-child(2),
     .item1:nth-child(3) {
-        width: 100% !important; /* Each item occupies full width */
+        width: 100% !important; /
     }
     .row {
         display: flex;
@@ -582,8 +573,7 @@ p a {
         .container2-b .box:nth-child(2) {
             width: 40%;             
         }
-
-        /* Content styling for demonstration */
+    
         .box {
             min-height: 150px;
             display: flex;
